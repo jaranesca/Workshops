@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Annuity Calculator</title>
+<link rel="stylesheet" type="text/css" href="calculator3.css">
+</head>
+<body>
+
+<h2>Annuity Calculator</h2>
+
+<label for="monthlyPayout">Monthly Payout ($):</label>
+<input type="number" id="monthlyPayout"><br>
+
+<label for="interestRate">Expected Interest Rate (%):</label>
+<input type="number" id="interestRate"><br>
+
+<label for="years">Years to Pay Out:</label>
+<input type="number" id="years"><br>
+
+<button onclick="calculatePresentValue()">Calculate Present Value</button>
+
+<p id="result"></p>
+
+<script src="calculator3.js"></script>
+
+</body>
+</html>
